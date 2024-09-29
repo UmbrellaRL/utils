@@ -4,7 +4,7 @@ import json
 
 from pathlib import Path
 
-def from_json(path: Path) -> object:
+def read_json(path: Path) -> object:
     """
     Load JSON file at provided path.
 
